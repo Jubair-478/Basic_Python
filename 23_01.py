@@ -39,9 +39,15 @@ def numbers(a,b,c):
     print(average)
     return average
 
-numbers(1,2,3)
-numbers(999,888,777)
-numbers(23,22,21)
+numbers(1, 2, 3)
+numbers(999, 888, 777)
+numbers(23, 22, 21)
 
+def ffuc(a=10, b=1):
+    print(a * b)
+    return a * b
 
-
+ffuc()
+ffuc(2, 4)
+ffuc(9, 1)
+ffuc(10, 20)
