@@ -51,3 +51,18 @@ ffuc()
 ffuc(2, 4)
 ffuc(9, 1)
 ffuc(10, 20)
+
+
+
+
+# @@@@@@@@@@@@@@@@
+
+def ffuc(a=10, b=1):
+    print(a * b)
+    return a * b
+
+ffuc()
+ffuc(2, 4)
+ffuc(9, 1)
+ffuc(10, 20)
+
