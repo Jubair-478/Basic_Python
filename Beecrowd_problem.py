@@ -85,9 +85,48 @@
 # problem-1003
 
 
-SO=int(input())
-MA=int(input())
-print("SOMA =",SO+MA)
+# SO=int(input())
+# MA=int(input())
+# print("SOMA =",SO+MA)
 
 # problem-1004
+
+# PR=int(input())
+# OD=int(input())
+# print("PROD =",PR+OD)
+
+# beecrowd | 1005
+
+# A=float(input())
+# B=float(input())
+# C=(A+B)/2
+# print("MEDIA = {:.5f}".format(C))
+
+# A = float(input())
+# B = float(input())
+# C = (A + B) / 2
+# print("MEDIA = {:.5f}".format(C))
+
+# A = float(input().strip())
+# B = float(input().strip())
+
+# C = (A + B) / 2
+# print("MEDIA = {:.5f}".format(C))
+
+# error
+
+# beecrowd | 1006>>>>>>>>>>>>>>>> next
+
+
+# beecrowd | 1007
+
+A =int(input())
+B =int(input())
+C =int(input())
+D =int(input())
+  
+print("DIFERENCA =",A*B - C*D)
+  
+  
+
 
