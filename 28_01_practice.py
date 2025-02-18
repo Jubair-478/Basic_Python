@@ -57,4 +57,4 @@ Print Weird if the number is weird. Otherwise, print Not Weird.
 # else:
 #     print("Weird")
 
-
+# git add 28_01_practice.py

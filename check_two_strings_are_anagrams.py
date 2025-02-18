@@ -1,66 +1,66 @@
-# Method 1: Sorting
-# Method 2: Counting Characters
-# Method 3: Using a DictionaryMethod 3: Using a Dictionary
-# Method 4: Frequency ArraysMethod 4: Frequency Arrays
-# Method 5: XOR ApproachMethod 5: XOR Approach
-# Method 6: Using Python SetsMethod 6: Using Python Sets
+Method 1: Sorting
+Method 2: Counting Characters
+Method 3: Using a DictionaryMethod 3: Using a Dictionary
+Method 4: Frequency ArraysMethod 4: Frequency Arrays
+Method 5: XOR ApproachMethod 5: XOR Approach
+Method 6: Using Python SetsMethod 6: Using Python Sets
 
 
-# Method 1:
-# # sorting
-# 
-# def anargram(str1,str2):
-#    return sorted(str1)==sorted(str2)
+Method 1:
+# sorting
 
-# print(anargram("YYY","yyy"))
-# print(anargram("listen","silent"))
+def anargram(str1,str2):
+   return sorted(str1)==sorted(str2)
 
-# x=input().lower()
-# y=input().lower()
+print(anargram("YYY","yyy"))
+print(anargram("listen","silent"))
 
-# I=sorted(x)
-# J=sorted(y)
-# if I == J:
-#    print("Anargram")
-# else:
-#    print("Putki mar")
+x=input().lower()
+y=input().lower()
 
-# Method 2:
-# Counting Characters
+I=sorted(x)
+J=sorted(y)
+if I == J:
+   print("Anargram")
+else:
+   print("Putki mar")
 
-# from collections import Counter
-# def anargram(X1,X2):
-#    return Counter (X1) == Counter(X2)
+Method 2:
+Counting Characters
 
-# print(anargram("silent","listen"))
+from collections import Counter
+def anargram(X1,X2):
+   return Counter (X1) == Counter(X2)
 
-# Mehod 3
-# dictionay
-# def anargrams(X1,X2):
-#    if len(X1)!=len(X2):
-#       return False
-#    dec={}
-#    for char in X1:
-#       if char in dec:
-#          dec[char]+=1
-#       else:
-#          dec[char]=1
-#    for char in X2:
-#       if char in dec:
-#          dec[char]-=1
-#       else:
-#          return False
+print(anargram("silent","listen"))
 
-#    return all(value == 0 for value in dec.values())
+Mehod 3
+dictionay
+def anargrams(X1,X2):
+   if len(X1)!=len(X2):
+      return False
+   dec={}
+   for char in X1:
+      if char in dec:
+         dec[char]+=1
+      else:
+         dec[char]=1
+   for char in X2:
+      if char in dec:
+         dec[char]-=1
+      else:
+         return False
 
-# print(anargrams("fuck","suck"))
-# print(anargrams("listen","silent"))
+   return all(value == 0 for value in dec.values())
 
-# Method 4: Frequency Arrays
-##################################################################################################
+print(anargrams("fuck","suck"))
+print(anargrams("listen","silent"))
+
+Method 4: Frequency Arrays
+#################################################################################################
 
 
-# Method 6: Using Python Sets Method
+Method 6: Using Python Sets Method
 
 def anar(a,b):
     if set(a)==set(b) and len(a)==len(b):
@@ -69,3 +69,4 @@ def anar(a,b):
 
 print(anar("boob","bboo"))
 print(anar("fuck","suck"))
+

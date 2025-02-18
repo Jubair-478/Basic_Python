@@ -120,13 +120,69 @@
 
 # beecrowd | 1007
 
-A =int(input())
-B =int(input())
-C =int(input())
-D =int(input())
+# A =int(input())
+# B =int(input())
+# C =int(input())
+# D =int(input())
   
-print("DIFERENCA =",A*B - C*D)
+# print("DIFERENCA =",A*B - C*D)
   
-  
+# beecrowd | 1008>>>>>>>>>>>>>>> next
+# number = int(input())
+# hours = int(input())
+# salary= float(input())
+# SALARY=hours*salary
+# print("NUMBER =",number)
+# print(f"SALARY  =  U$ {SALARY:.2f}")
+
+# beecrowd | 1009
+
+# name = input()
+# salary = float(input())
+# total_sold = float(input())
+# # final_salary=f"{total_sold:.2f}"
+# commission= total_sold*0.15
+
+# Total = salary + commission
+# print(f"TOTAL = R$ {Total:.2f}")
+
+# name = input()
+# salary = float(input())
+# total_sold = float(input())
+
+# # Format total_sold to two decimal places for display
+# formatted_total_sold = f"{total_sold:.2f}"
+# print("Total sold (formatted):", formatted_total_sold)
+
+# # Calculate commission using the float value of total_sold
+# commission = total_sold * 0.15
+
+# # Calculate the final total salary
+# Total = salary + commission
+# print(f"TOTAL = R$ {Total:.2f}")
+
+
+# beecrowd | 1010
+
+
+# product_code = int(input())
+# product_quantity = int(input())
+# product_price = float(input())
+# total = product_quantity*product_price
+
+# product_code_2 = int(input())
+# product_quantity_2 = int(input())
+# product_price_2 = float(input())
+# total_2 = product_quantity_2*product_price_2
+
+# ttotal =total+total_2
+
+# print(f"VALOR A PAGAR: R$ {ttotal:.2f}")
+
+# a=input().split(" ")
+# b=input().split(" ")
+# total=int(a[1])*float(a[2]) + int(b[1])*float(b[2])
+# print(f"VALOR A PAGAR: R${total:.2f}")
+
 
 

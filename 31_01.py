@@ -87,23 +87,23 @@
 #                 break
 
 
-def anar_koli(S1,S2):
-    L1=len(S1)
-    L2=len(S2)
-    count = 0
-    if L1 == L2:
-        for i in S1:
-            for j in S2:
-                if i == j:
-                    count +=1
-                S1.replace(i,'',1)
-                S2.replace(j,'',1)
-                break
-if count == L1:
-    return True
-return False
+# def anar_koli(S1,S2):
+#     L1=len(S1)
+#     L2=len(S2)
+#     count = 0
+#     if L1 == L2:
+#         for i in S1:
+#             for j in S2:
+#                 if i == j:
+#                     count +=1
+#                 S1.replace(i,'',1)
+#                 S2.replace(j,'',1)
+#                 break
+# if count == L1:
+#     return True
+# return False
 
 
 
-anar_koli("Fuck","Suck")
-anar_koli("Listen","Silent")
+# anar_koli("Fuck","Suck")
+# anar_koli("Listen","Silent")
